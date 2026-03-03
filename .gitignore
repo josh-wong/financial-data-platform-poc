@@ -1,0 +1,81 @@
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# IDE and Editor Files
+.vscode/settings.json
+.vscode/launch.json
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment Variables and Configuration
+.env
+.env.local
+.env.development
+.env.production
+config.local.*
+secrets.json
+credentials.json
+
+# Python (FastAPI)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+
+# Virtual Environments
+venv/
+env/
+.venv/
+
+# Database Files
+*.db
+*.sqlite
+*.sqlite3
+postgres_data/
+pgdata/
+
+# Redis
+redis_data/
+dump.rdb
+
+# Docker
+docker-compose.override.yml
+.dockerignore.local
+
+# Logs
+logs/
+*.log
+
+# Test Data and Mock Financial Data
+test_data/
+mock_transactions/
+sample_accounts/
+
+# Temporary Files
+tmp/
+temp/
+*.tmp
+
+# Financial Platform Security
+api_keys.txt
+client_secrets.json
+*.pem
+oauth_credentials.json
