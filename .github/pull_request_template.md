@@ -28,13 +28,15 @@
 ## Testing performed
 
 <!-- Mark completed testing with [x]. Add PR-specific items as needed. -->
+<!-- For items that don't apply to this PR, mark them with [x] and add "(N/A - Reason)" -->
+<!-- Example: [x] API endpoints return correct HTTP status codes and error responses (N/A - No API changes) -->
 - [ ] API endpoints return correct HTTP status codes and error responses
 - [ ] Database operations (create, read, update) work correctly
 - [ ] OAuth2 authentication flow functions properly
 - [ ] Mock financial provider integration works as expected
 - [ ] Webhook delivery and retry logic tested (if applicable)
 - [ ] Transaction processing handles edge cases (duplicates, failures)
-- [ ] Rate limiting enforcement works correctly
+- [ ] Rate-limiting enforcement works correctly
 - [ ] Security headers and HTTPS requirements verified
 
 ## Code quality and security
